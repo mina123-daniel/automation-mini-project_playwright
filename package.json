@@ -1,0 +1,29 @@
+{
+  "name": "automation-mini-project_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:db": "playwright test tests/db",
+    "test:e2e": "playwright test tests/e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mina123-daniel/automation-mini-project_playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mina123-daniel/automation-mini-project_playwright/issues"
+  },
+  "homepage": "https://github.com/mina123-daniel/automation-mini-project_playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  }
+}
