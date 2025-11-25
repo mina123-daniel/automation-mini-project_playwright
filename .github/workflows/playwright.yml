@@ -21,6 +21,14 @@ jobs:
       run: npm install better-sqlite3
     - name: create database
       run: node db/init-db.js
+    - name: Run Test for UI
+      run: npm run test:ui
+    - name: Run Test for API
+      run: npm run test:api
+    - name: Run Test for DB
+      run: npm run test:db
+    - name: Run Test for E2E
+      run: npm run test:e2e
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
